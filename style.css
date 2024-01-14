@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero {
+    background-image: url("images/2.jpg");
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+
+}
+
+img {
+    width: 100px; 
+    height: 100px;
+
+}
+
+#main-title {
+    color: #f2f2f2;
+    background: #252422;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 40px auto 15px;
+}
+
+#sub-title {
+    color: #f2f2f2;
+    background: #252422;
+    max-width: 450px;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+.info-section {
+    background-color: #E63946;
+    color: #f2f2f2;
+    padding: 5px 30px 5px;
+}
+
+#zim-flag{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+}
+
+
+.activities-section {
+    padding: 5px 30px 5px;
+    background-color: #fcbf49;
+    color: #252422;
+}
+
+#activities-heading{
+    font-size: x-large;
+    padding-bottom: 20px;
+
+}
+
+.activities-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 30px;
+
+}
+   
+.activities {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.activities img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.activities h4 {
+    font-size: larger;
+}
+
+#guide{
+    padding: 30px 0;
+    background-color: #252422;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    column-gap: 5px;
+    justify-content: space-around;
+    text-align: center;
+    background: #E63946;
+    color: #f2f2f2 ;
+    border-radius: 10px;
+    border-bottom: 6px solid #fcbf49;
+    transition: all 1s;
+}
+
+.card p {
+    font-style: italic;
+}
+
+.card:hover {
+    background: #fcbf49;
+    color: #252422 ;
+    border-radius: 10px;
+    border-bottom: 6px solid #E63946;
+    transition: all 1s;
+}
